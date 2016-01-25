@@ -8,7 +8,7 @@ public class Lab2 {
 	System.out.println("Each sack had seven cats");
 	System.out.println("Each cat had seven kits");
 	System.out.println("Kittens, cats, sacks, wives");
-	System.out.println("How many were going to St. Ives?");
+	
 	
 	// 1. Each of the following variable declarations has something
 	// wrong with it.  Uncomment the line and fix it.  If your code
@@ -38,7 +38,7 @@ public class Lab2 {
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = (7^4)+2;
+	    total = 2403;
 	} else {
 	    // Otherwise, only the narrator is going!
 	    total = 1;
@@ -48,6 +48,7 @@ public class Lab2 {
 	// "Number going to St. Ives is " and then, on the same line,
 	// the number going to St. Ives (stored in the _total_ variable).
 	// Add a statement or statements that will do this.
+	System.out.println("How many were going to St. Ives?  " + total);
 	
     }
     
